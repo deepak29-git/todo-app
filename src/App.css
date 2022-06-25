@@ -1,0 +1,9 @@
+:root{
+    --primary-color:blue;
+    --red-color:red;
+}
+
+.center{
+    display: flex;
+    justify-content: center;
+}

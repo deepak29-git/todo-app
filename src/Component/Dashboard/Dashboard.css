@@ -1,0 +1,13 @@
+.mb-1 {
+  margin-bottom: 1rem;
+}
+
+.center-text {
+  text-align: center;
+}
+
+.description-input {
+  padding: 0.5rem;
+  font-size: 16px;
+  outline-color: var(--primary-color);
+}

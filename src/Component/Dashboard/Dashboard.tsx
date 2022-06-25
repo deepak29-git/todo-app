@@ -72,7 +72,7 @@ export const DashBoard = () => {
       </div>
       <div className="center">
         <Button
-          disabled={todoInput ? false : true}
+          disabled={todoInput || todoDescription || todoDateAndTime ? false : true}
           onClick={() => addTodoHandler()}
           variant="contained"
         >
